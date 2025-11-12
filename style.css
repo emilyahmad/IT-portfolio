@@ -1,0 +1,61 @@
+/* 01 topography system
+- font sizes (px)
+10 / 12 / 14 / 18 / 20 / 24 / 30 / 36 / 44 // 52 / 62 / 74 / 86 / 98
+
+- font weights
+default: 400
+medium: 500
+semi-bold: 600
+bold: 700
+
+line heights
+default: 1
+small: 1.05
+paragraph default: 1.6
+
+letter spacing:
+-.5 px
+.75 px 
+
+colors
+tints
+#fdf2e9
+#fae5d3
+#eb984e
+
+shades
+#cf711f
+
+accents: 
+greys
+#767676 (lightest grey allowed on #fff)
+#6f6f6f (lightest grey allowed on #fdf2e9
+
+shadows
+0 2.4rem 4.8rem rgba(0,0,0,0/075)
+
+border-radius
+default: 9px
+medium: 11px
+
+white space
+- spacing system 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 120
+9.6 rem
+*/
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* because we want it to be sticky (doesn't scroll down) */
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    
+    .logo {
+        height: 2.2rem;
+    }
+}
