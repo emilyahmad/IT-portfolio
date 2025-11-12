@@ -51,3 +51,26 @@
 .testimonial-container {
     padding: 9.6rem 3.2rem;
 }
+
+/************/
+/* below 944 px (tablets) */
+/***********/
+@media(max-width: 59em) {
+    html {
+        /* 8px / 16 px = 0.5 = 50% */
+        font-size: 50%;
+    }
+}
+.hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+}
+.hero-text-box,
+.hero-img-box  {
+    text-align: center;
+}
+
+.hero-img {
+    width: 60%;
+}
