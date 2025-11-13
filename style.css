@@ -21,4 +21,5 @@ body {
     list-style-type: none;
     display: flex;
     align-items: center;
+    margin-left: -2.6srem;
 }
