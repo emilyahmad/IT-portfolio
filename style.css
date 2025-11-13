@@ -6,27 +6,27 @@ body {
     align-items: center;
     gap: 2rem;
     padding: 1rem;
+    color: #3f2921;
 }
 
 .profile-image img {
     border-radius: 50%;
     width: 13rem;
-    margin-top: 3rem;
-    margin-right: 2rem;
 }
 
 .about {
     width: 60%;
     max-width: 1100px;
     flex: 1 1 auto;
-    min-height: 70vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 2rem;
 }
 
 .profile-description {
     font-weight: normal;
-    font-size: 22px;
+    width: 75%;
 }
 
 .about .heading-icons {
@@ -48,9 +48,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 5rem;
+    font-size: 25px;
 }
 
 .menu-bar ul {
     list-style-type: none;
+    line-height: 1.4;
 }
