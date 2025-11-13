@@ -9,17 +9,10 @@ html {
     10 16px = 0.625 = 62.5% */
     font-size: 62.5%;
 }
-
-body {
-    font-family: sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
-}
-
 /* general reusable components */
     * {
         padding: 0;
+        box-sizing: border-box;
     }
     html {
         overflow-x: hidden;
