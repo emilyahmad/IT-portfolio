@@ -1,5 +1,6 @@
 body {
     background-color: #f8f2f0;
+    font-family: "Stack Sans Notch", sans-serif;
 }
 
 .profile-image img {
@@ -10,5 +11,7 @@ body {
 .about {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    align-items: center;
+    gap: 2rem;
+    padding: 15rem;
 }
