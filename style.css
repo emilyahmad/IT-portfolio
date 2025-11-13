@@ -1,6 +1,11 @@
 body {
     background-color: #f8f2f0;
-    font-family: "Stack Sans Notch", sans-serif;
+    font-family: "DM Sans", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .profile-image img {
@@ -11,13 +16,16 @@ body {
 .about {
     width: 60%;
     max-width: 1100px;
-    margin: 0 auto;
+    flex: 1 1 auto;
     min-height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 1.5rem;
+}
+
+.profile-description {
+    font-weight: normal;
 }
 
 .about .heading-icons {
@@ -26,5 +34,21 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    gap: 0.5rem;
+    gap: 1rem;
+}
+
+.about .heading-icons i {
+    font-size: 1.6rem;
+}
+
+.menu-bar {
+    width: 3rem;
+    order: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar ul {
+    list-style-type: none;
 }
