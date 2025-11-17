@@ -33,14 +33,17 @@ body {
     display: flex;
     margin-left: -2.5rem;
     gap: .5rem;
-    color: #412115
 }
 
 .about .heading-icons i {
     font-size: 1.6rem;
 }
 
-.about .heading-icons i:hover{
+.about .heading-icons a {
+    color: #412115;
+}
+
+.about .heading-icons i:hover {
     color: #9c6450;
     cursor: pointer;
 }
@@ -54,4 +57,10 @@ body {
 .menu-bar ul {
     list-style-type: none;
     line-height: 1.4;
+    width: 5%;
+}
+
+.menu-bar li:hover {
+    border-bottom: black 2px solid;
+    cursor: pointer;
 }
