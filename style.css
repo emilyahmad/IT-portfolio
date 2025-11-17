@@ -2,7 +2,7 @@ body {
     background-color: #f8f2f0;
     font-family: "DM Sans", sans-serif;
 
-    color: #3f2921;
+    color: #412115;
 }
 
 .profile-image img {
@@ -33,6 +33,7 @@ body {
     display: flex;
     margin-left: -2.5rem;
     gap: .5rem;
+    color: #412115
 }
 
 .about .heading-icons i {
