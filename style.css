@@ -7,7 +7,7 @@ body {
 
 .profile-image img {
     border-radius: 50%;
-    width: 13rem;
+    width: 14rem;
 }
 
 .about {
@@ -49,22 +49,31 @@ body {
 }
 
 .menu-bar {
-    order: -1;
     font-size: 25px;
+    top: 0;
+    position: sticky;
 }
 
-.menu-bar a {
+a {
     text-decoration: none;
     color: #412115;
 }
 
 .menu-bar ul {
     list-style-type: none;
-    line-height: 1.4;
-    width: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #f8f2f0;
 }
 
 .menu-bar li:hover {
-    border-bottom: black 2px solid;
+    padding: .5%;
     cursor: pointer;
+    transition: 500ms;
+}
+
+.cac, .gwc, .rob, .club, .t4 {
+    border-radius: 20px;
+    border: #412115 2px solid;
 }
