@@ -16,16 +16,16 @@ body {
     width: 55%;
     margin: 0 auto;
     justify-content: center;
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
 
 .name {
-    font-size: 35px;
+    font-size: 2.3rem;
 }
 
 .profile-description {
     font-weight: normal;
-
+    font-size: 1.1rem;
 }
 
 .about .heading-icons {
@@ -49,7 +49,7 @@ body {
 }
 
 .menu-bar {
-    font-size: 25px;
+    font-size: 1.7rem;
     top: 0;
     position: sticky;
 }
@@ -70,10 +70,37 @@ a {
 .menu-bar li:hover {
     padding: .5%;
     cursor: pointer;
-    transition: 500ms;
+    transition: 400ms;
 }
 
-.cac, .gwc, .rob, .club, .t4 {
-    border-radius: 20px;
-    border: #412115 2px solid;
+.projects h1, .projects p {
+    display: flex;
+    margin-left: 5%;
+    gap: 2rem;
 }
+
+.projects h1 {
+    font-size: 2.1rem;
+}
+
+.projects p {
+    font-size: 1.1rem;
+}
+
+.project-card {
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.card {
+    border-radius: 20px;
+    border: #d3cecc 2px solid;
+    width: 5%;
+    
+}
+
+.card:hover {
+    background-color: #f8ece5;
+    border: #fdccc2 2px solid;
+}
+
