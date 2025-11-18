@@ -90,13 +90,17 @@ a {
 .project-card {
     font-size: 15px;
     margin-left: 5%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
 .card {
     border-radius: 20px;
     border: #d3cecc 2px solid;
-    width: 5%;
-    
+    width: 25%;
+    height: 25%;
 }
 
 .card:hover {
