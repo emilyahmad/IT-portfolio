@@ -90,18 +90,17 @@ a {
 
 .project-card {
     font-size: 15px;
-    margin-left: 5%;
+    margin: 0 5%;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .card {
     border-radius: 20px;
     border: #d3cecc 2px solid;
-    width: 500px;
-    height: 500px;
+    width: 100%;
 }
 
 .card:hover {
@@ -117,8 +116,18 @@ a {
 
 .card-bottom {
     display: flex;
-    margin: 0 5% 0;
     justify-content: space-between;
+    margin-right: 5%;
+}
+
+.fa-arrow-up-right-from-square {
+    font-size: 1.3rem;
+    color: #412115;
+}
+
+.fa-arrow-up-right-from-square:hover {
+    color: #9c6450;
+    cursor: pointer;
 }
 
 .card-top {
