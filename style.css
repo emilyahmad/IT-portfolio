@@ -111,12 +111,14 @@ a {
     border-radius: 20px;
     border: #d3cecc 2px solid;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .card:hover {
     background-color: #f8ece5;
     border: #fdccc2 2px solid;
+    transform: rotate(-.1deg);
+    translate: transform 50000ms ease;
 }
 
 .project-card img {
