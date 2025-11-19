@@ -109,3 +109,15 @@ a {
     border: #fdccc2 2px solid;
 }
 
+.card-bottom {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.project-card img {
+    width: 10%;
+    height: auto;
+    border-radius: 12.5%;
+    margin: 5%;
+}
