@@ -21,9 +21,8 @@ body {
 }
 
 .menu-bar li:hover {
-    border-bottom: #412115 2px solid;
-    transition: 150ms;
-    border-radius: 7%;
+    text-decoration: underline;
+    transform: 500ms;
 }
 
 .profile-image img {
