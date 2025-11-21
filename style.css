@@ -22,7 +22,7 @@ body {
 
 .menu-bar li:hover {
     text-decoration: underline;
-    transform: 500ms;
+    transform: 500ms ease;
 }
 
 .profile-image img {
@@ -172,12 +172,23 @@ a {
 
 .cert-images {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 1rem;
+    justify-content: center;
+
+    /* replace with contact form */
+    margin-bottom: 12rem;
 }
 
 .cert-images img {
-    width: 357.5px;
-    height: 245px;
+    width: 178.75px;
+    height: 122.5px;
     object-fit: cover;
+}
+
+.cert-images img:hover {
+    z-index: 2;
+    transform: scale(3.5);
+    transition: 750ms ease;
+    cursor: pointer;
 }
