@@ -169,3 +169,15 @@ a {
     border-radius: 999px;
     font-size: 1.1rem;
 }
+
+.cert-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.cert-images img {
+    width: 357.5px;
+    height: 245px;
+    object-fit: cover;
+}
