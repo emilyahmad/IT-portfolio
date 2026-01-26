@@ -88,13 +88,19 @@
         font-size: 2.1rem;
     }
 
-    .subheading {
+    .subheading1 {
         font-size: 1.5rem;
         margin-top: -1.2%;
     }
 
+    .subheading2 {
+        font-size: 1.5rem;
+        margin-top: 1.2%;
+    }
+
     .date {
         font-size: 1.1rem;
+        text-align: right;
     }
 
     .description {
@@ -189,9 +195,6 @@
         cursor: pointer;
         border-radius: 5%;
     }
-
-    /* bro why didn't my css apply??  */
-
 }
 
 /* mobile */
@@ -218,7 +221,7 @@
 
     .profile-image img {
         border-radius: 50%;
-        width: 12rem;
+        width: 9rem;
     }
 
     .profile-image img:hover {
@@ -229,15 +232,15 @@
 
     .about {
         display: flex;
-        gap: 2rem;
-        width: 90%;
+        gap: 1.75rem;
+        width: 75%;
         margin: 0 auto;
         justify-content: center;
         margin-top: 5rem;
     }
 
     .name {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .name:hover {
@@ -284,19 +287,25 @@
         font-size: 2.1rem;
     }
 
-    .subheading {
+    .subheading1 {
         font-size: 1.5rem;
-        margin-top: -1.2%;
+        margin-top: -1.5%;
+    }
+
+    .subheading2 {
+        font-size: 1.5rem;
+        margin-top: 5.2%;
     }
 
     .date {
         font-size: .85rem;
+        text-align: right;
     }
 
     .description {
         font-size: .75rem;
         padding-left: 4.25%;
-        padding-right: -1%;
+        padding-right: 2%;
         line-height: .9rem;
     }
 
@@ -351,10 +360,14 @@
 
     .card-top {
         display: flex;
+        gap: 4rem;
         margin: 0 5% 0;
-        gap: -2.5%;
-        text-align: right;
         font-size: 1rem;
+        border-radius: 50px;
+    }
+
+    .card-top img {
+        border-radius: 8px;
     }
 
     .card-type {
